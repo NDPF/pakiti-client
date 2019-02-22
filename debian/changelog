@@ -1,3 +1,9 @@
+pakiti (3.0.3) stable; urgency=medium
+
+  * Include service files to run once on boot
+
+ -- Dennis van Dok <dennisvd@nikhef.nl>  Fri, 22 Feb 2019 17:09:46 +0100
+
 pakiti (3.0.2) stable; urgency=medium
 
   * Support for installations with multiple package managers
