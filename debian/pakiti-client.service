@@ -1,0 +1,10 @@
+[Unit]
+Description=Pakiti client start on boot
+After=network.service systemd-networkd.service network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/pakiti-client --config /etc/pakiti/client.conf
+
+[Install]
+WantedBy=multi-user.target
